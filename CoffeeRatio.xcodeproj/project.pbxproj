@@ -11,6 +11,17 @@
 		CE96AEA9294D0E1F00C35A46 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE96AEA8294D0E1F00C35A46 /* ContentView.swift */; };
 		CE96AEAB294D0E2200C35A46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE96AEAA294D0E2200C35A46 /* Assets.xcassets */; };
 		CE96AEAE294D0E2200C35A46 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE96AEAD294D0E2200C35A46 /* Preview Assets.xcassets */; };
+		CE96AEB7294D0EA100C35A46 /* TimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE96AEB6294D0EA100C35A46 /* TimerViewModel.swift */; };
+		CE96AEB9294D0EC100C35A46 /* CalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE96AEB8294D0EC100C35A46 /* CalculatorViewModel.swift */; };
+		CE96AEBB294D0EF200C35A46 /* WaterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE96AEBA294D0EF200C35A46 /* WaterInput.swift */; };
+		CE96AEBD294D0F0200C35A46 /* WaterDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE96AEBC294D0F0200C35A46 /* WaterDisplay.swift */; };
+		CE96AEBF294D0F1200C35A46 /* CoffeeInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE96AEBE294D0F1200C35A46 /* CoffeeInput.swift */; };
+		CE96AEC1294D0F2B00C35A46 /* RatioInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE96AEC0294D0F2B00C35A46 /* RatioInput.swift */; };
+		CE96AEC3294D0F4600C35A46 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE96AEC2294D0F4600C35A46 /* TimerView.swift */; };
+		CE96AEC7294D160900C35A46 /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = CE96AEC6294D160900C35A46 /* screenshot.png */; };
+		CE96AECA294D164B00C35A46 /* Ratios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE96AEC8294D164B00C35A46 /* Ratios.xcdatamodeld */; };
+		CE96AECE294D175600C35A46 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = CE96AECD294D175600C35A46 /* Images */; };
+		CE96AED0294D177300C35A46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE96AECF294D177300C35A46 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,18 @@
 		CE96AEA8294D0E1F00C35A46 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE96AEAA294D0E2200C35A46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE96AEAD294D0E2200C35A46 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE96AEB6294D0EA100C35A46 /* TimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewModel.swift; sourceTree = "<group>"; };
+		CE96AEB8294D0EC100C35A46 /* CalculatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewModel.swift; sourceTree = "<group>"; };
+		CE96AEBA294D0EF200C35A46 /* WaterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterInput.swift; sourceTree = "<group>"; };
+		CE96AEBC294D0F0200C35A46 /* WaterDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterDisplay.swift; sourceTree = "<group>"; };
+		CE96AEBE294D0F1200C35A46 /* CoffeeInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeInput.swift; sourceTree = "<group>"; };
+		CE96AEC0294D0F2B00C35A46 /* RatioInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatioInput.swift; sourceTree = "<group>"; };
+		CE96AEC2294D0F4600C35A46 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		CE96AEC4294D11AE00C35A46 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CE96AEC6294D160900C35A46 /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
+		CE96AEC9294D164B00C35A46 /* Ratios.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ratios.xcdatamodel; sourceTree = "<group>"; };
+		CE96AECD294D175600C35A46 /* Images */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Images; path = CoffeeRatio/Images; sourceTree = SOURCE_ROOT; };
+		CE96AECF294D177300C35A46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +58,8 @@
 		CE96AE9A294D0E1E00C35A46 = {
 			isa = PBXGroup;
 			children = (
+				CE96AEC8294D164B00C35A46 /* Ratios.xcdatamodeld */,
+				CE96AEC4294D11AE00C35A46 /* README.md */,
 				CE96AEA5294D0E1F00C35A46 /* CoffeeRatio */,
 				CE96AEA4294D0E1F00C35A46 /* Products */,
 			);
@@ -51,9 +76,13 @@
 		CE96AEA5294D0E1F00C35A46 /* CoffeeRatio */ = {
 			isa = PBXGroup;
 			children = (
+				CE96AEB5294D0E7F00C35A46 /* Models */,
+				CE96AEB4294D0E7200C35A46 /* Views */,
 				CE96AEA6294D0E1F00C35A46 /* CoffeeRatioApp.swift */,
 				CE96AEA8294D0E1F00C35A46 /* ContentView.swift */,
 				CE96AEAA294D0E2200C35A46 /* Assets.xcassets */,
+				CE96AECF294D177300C35A46 /* Assets.xcassets */,
+				CE96AEC5294D11F800C35A46 /* Images */,
 				CE96AEAC294D0E2200C35A46 /* Preview Content */,
 			);
 			path = CoffeeRatio;
@@ -65,6 +94,37 @@
 				CE96AEAD294D0E2200C35A46 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE96AEB4294D0E7200C35A46 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE96AEBE294D0F1200C35A46 /* CoffeeInput.swift */,
+				CE96AEC0294D0F2B00C35A46 /* RatioInput.swift */,
+				CE96AEC2294D0F4600C35A46 /* TimerView.swift */,
+				CE96AEBC294D0F0200C35A46 /* WaterDisplay.swift */,
+				CE96AEBA294D0EF200C35A46 /* WaterInput.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE96AEB5294D0E7F00C35A46 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE96AEB8294D0EC100C35A46 /* CalculatorViewModel.swift */,
+				CE96AEB6294D0EA100C35A46 /* TimerViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CE96AEC5294D11F800C35A46 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CE96AECD294D175600C35A46 /* Images */,
+				CE96AEC6294D160900C35A46 /* screenshot.png */,
+			);
+			name = Images;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +185,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE96AECE294D175600C35A46 /* Images in Resources */,
 				CE96AEAE294D0E2200C35A46 /* Preview Assets.xcassets in Resources */,
+				CE96AEC7294D160900C35A46 /* screenshot.png in Resources */,
 				CE96AEAB294D0E2200C35A46 /* Assets.xcassets in Resources */,
+				CE96AED0294D177300C35A46 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +200,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE96AEC3294D0F4600C35A46 /* TimerView.swift in Sources */,
+				CE96AEBF294D0F1200C35A46 /* CoffeeInput.swift in Sources */,
 				CE96AEA9294D0E1F00C35A46 /* ContentView.swift in Sources */,
+				CE96AEC1294D0F2B00C35A46 /* RatioInput.swift in Sources */,
+				CE96AEB7294D0EA100C35A46 /* TimerViewModel.swift in Sources */,
+				CE96AEBB294D0EF200C35A46 /* WaterInput.swift in Sources */,
+				CE96AEB9294D0EC100C35A46 /* CalculatorViewModel.swift in Sources */,
+				CE96AECA294D164B00C35A46 /* Ratios.xcdatamodeld in Sources */,
+				CE96AEBD294D0F0200C35A46 /* WaterDisplay.swift in Sources */,
 				CE96AEA7294D0E1F00C35A46 /* CoffeeRatioApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +412,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CE96AEC8294D164B00C35A46 /* Ratios.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CE96AEC9294D164B00C35A46 /* Ratios.xcdatamodel */,
+			);
+			currentVersion = CE96AEC9294D164B00C35A46 /* Ratios.xcdatamodel */;
+			name = Ratios.xcdatamodeld;
+			path = CoffeeRatio/Ratios.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = CE96AE9B294D0E1E00C35A46 /* Project object */;
 }
